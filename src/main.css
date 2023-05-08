@@ -62,7 +62,7 @@
         @apply            
           font-PoppinsBold  
           xs:text-sm
-          text-offBlack
+          text-smokeyGrey
           tracking-widest
           block 
           top-0
@@ -114,7 +114,7 @@
     }
     .texto-p{
         @apply
-        font-PoppinsExtraBold 
+        font-PoppinsBoldItalic 
         text-6xl 
         mt-3 
         xs:text-4xl
