@@ -1,0 +1,16 @@
+# Ignora los archivos y carpetas generados por Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignora los archivos y carpetas generados por el editor de código Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Ignora los archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignora los archivos de compilación de CSS generados por Tailwind CSS
+/dist/
+*.css
