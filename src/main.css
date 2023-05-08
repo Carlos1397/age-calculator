@@ -49,12 +49,12 @@
 @layer components {
     .img{
         @apply            
-          p-2
-          bg-slate-950  
+          p-2  
           rounded-full
           w-16 h-16
           xs:w-12 xs:h-12
-          hover:bg-purpura
+          bg-purpura
+          hover:bg-black
           cursor-pointer
           ;
     }
@@ -82,7 +82,7 @@
         block 
         p-4
         mt-2
-        border   
+        border  
         border-lightGrey 
         rounded-md 
         transition

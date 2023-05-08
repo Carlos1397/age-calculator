@@ -592,13 +592,13 @@ video {
   cursor: pointer;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
-  background-color: rgb(2 6 23 / var(--tw-bg-opacity));
+  background-color: hsl(259 100% 65% / var(--tw-bg-opacity));
   padding: 0.5rem;
 }
 
 .img:hover {
   --tw-bg-opacity: 1;
-  background-color: hsl(259 100% 65% / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 @media (max-width: 768px) {
