@@ -51,7 +51,7 @@
         @apply            
           p-2  
           rounded-full
-          w-16 h-16
+          w-20 h-20
           xs:w-12 xs:h-12
           bg-purpura
           hover:bg-black
@@ -114,7 +114,9 @@
     .texto-p{
         @apply
         font-PoppinsBoldItalic 
-        text-6xl 
+        xl:text-8xl
+        lg:text-8xl
+        md:text-6xl
         mt-3 
         xs:text-4xl
         transition

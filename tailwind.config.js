@@ -8,7 +8,7 @@ module.exports = {
       },
       borderRadius: {
         'lg': '15px', // se aplica a rounded-tl-lg, rounded-tr-lg, rounded-bl-lg
-        'xl': '110px', // se aplica a rounded-br-xl
+        'xl': '130px', // se aplica a rounded-br-xl
       },
       fontFamily: {
         PoppinsBold: ['Poppins-Bold', 'sans-serif'],
