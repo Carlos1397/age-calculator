@@ -82,12 +82,11 @@
         block 
         p-4
         mt-2
-        border
-        border-offBlack
-        shadow-inner
+        border   
+        border-lightGrey 
         rounded-md 
         transition
-        duration-300                    
+        duration-300                 
         focus:outline-purple-600      
         caret-purpura
         cursor-pointer        
