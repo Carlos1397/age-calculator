@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    /*Inicio fonts (fuentes)*/
+    @font-face {
+        font-family: "Poppins-Bold";
+        src: url('fonts/Poppins-Bold.ttf') format('truetype');
+        font-weight: 700;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Poppins-BoldItalic";
+        src: url('fonts/Poppins-BoldItalic.ttf') format('truetype');
+        font-weight: 700;
+    
+        font-style: italic;
+    }
+    @font-face {
+        font-family: "Poppins-ExtraBold";
+        src: url('fonts/Poppins-ExtraBold.ttf') format('truetype');
+        font-weight: 800;
+        font-style: normal ;
+    }
+    @font-face {
+        font-family: "Poppins-ExtraBoldItalic";
+        src: url('fonts/Poppins-ExtraBoldItalic.ttf') format('truetype');
+        font-weight: 800;
+        font-style: italic ;
+    }
+    @font-face {
+        font-family: "Poppins-Italic";
+        src: url('fonts/Poppins-Italic.ttf') format('truetype');
+        font-weight: 400;
+        font-style: italic ;
+    }
+    @font-face {
+        font-family: "Poppins-Regular";
+        src: url('fonts/Poppins-Regular.ttf') ;
+        font-weight: 400;
+        font-style: normal ;
+    }
+    /*Fin fonts (fuentes)*/
+   
+}
+
+@layer components {
+    .img{
+        @apply            
+          p-2
+          bg-slate-950  
+          rounded-full
+          w-16 h-16
+          xs:w-12 xs:h-12
+          hover:bg-purpura
+          cursor-pointer
+          ;
+    }
+    .label-fecha{
+        @apply            
+          font-PoppinsBold  
+          xs:text-sm
+          text-offBlack
+          tracking-widest
+          block 
+          top-0
+          transition
+          duration-300 
+          cursor-pointer
+        ;
+    }
+   .input-fecha{
+    @apply
+        font-PoppinsExtraBold  
+        text-texto
+        xl:w-36
+        md:w-36
+        xs:w-20
+        xs:text-base
+        block 
+        p-4
+        mt-2
+        border
+        border-offBlack
+        shadow-inner
+        rounded-md 
+        transition
+        duration-300                    
+        focus:outline-purple-600      
+        caret-purpura
+        cursor-pointer        
+        ;
+    }
+    .alert-span{
+        @apply
+            font-PoppinsItalic
+            text-lightred
+            text-sm
+            md:text-sm
+            mt-2
+            hidden
+            transition
+        duration-300
+        ;
+    }
+    .text-span{
+        @apply 
+        text-purpura 
+        transition
+        duration-300
+    ;
+    }
+    .texto-p{
+        @apply
+        font-PoppinsExtraBold 
+        text-6xl 
+        mt-3 
+        xs:text-4xl
+        transition
+        duration-300       
+        ;
+    }
+  
+}

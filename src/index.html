@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link href="../dist/styles.css" rel="stylesheet">
+  <title>CV99 | Age calculator app</title>
+  <script src="index.js"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body class="bg-offWhite ">
+  <div class="flex items-center justify-center h-screen mx-auto">
+    <div class="
+    
+    bg-white 
+     xl:w-8/12
+     sm:w-6/12
+     md:w-8/12
+     lg:w-8/12
+     
+    rounded-tl-lg rounded-tr-lg rounded-bl-lg rounded-br-xl">
+      <div class="       
+      rounded-br-xl
+      p-5
+      ">
+        <form>
+          <div class="
+          flex
+          mx-auto
+          w-full
+          flex-row  
+          overflow-hidden  
+          transition
+          duration-500 
+          ">
+            <div class="mt-4 mr-4 ">
+              <label class="label-fecha" for="day" id="Lday">DAY</label>
+              <input class="input-fecha" placeholder="DD" type="text" name="day" id="day" required maxlength="2"  oninput="validarTexto(this)">
+              <span class="alert-span ">Must be a valid day</span>
+            </div>
+            <div class="  mt-4 mr-4">
+              <label class="label-fecha" for="month" id="Lmonth">MONTH</label>
+              <input class="input-fecha" placeholder="MM" type="text" name="month" id="month" required maxlength="2"  oninput="validarTexto(this)">
+              <span class="alert-span ">Must be a valid month</span>
+            </div>
+            <div class="  mt-4 mr-4 ">
+              <label class="label-fecha" for="year" id="Lyear">YEAR</label>
+              <input class="input-fecha" placeholder="YYYY" type="text" name="year" id="year" required maxlength="4"  oninput="validarTexto(this)">
+              <span class="alert-span ">Must be a valid past</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-center mt-8">
+
+            <hr class="border-lightGrey border-2 flex-grow    ">
+       
+              <svg class="animate-read
+              img md:mx-0 " onclick="validarInputs()" xmlns="http://www.w3.org/2000/svg" width="46" height="44"
+                viewBox="0 0 46 44">
+                <g fill="none" stroke="#FFF" stroke-width="2">
+                  <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+                </g>
+              </svg>  
+              <hr class="border-lightGrey border-2 flex-grow lg:hidden">
+        
+          </div>
+        </form>
+        
+
+        <div class="
+         overflow-hidden 
+        flex  
+        rounded-br-xl
+        pb-12
+         ">
+          <div class="flex-grow ">
+            <p class="texto-p">
+              <span class="text-span" id="s-day">--</span> years
+            </p>
+            <p class="texto-p ">
+              <span class="text-span" id="s-mont">--</span> months
+            </p>
+            <p class="texto-p ">
+              <span class="text-span" id="s-year">--</span> days
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
