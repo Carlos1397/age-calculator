@@ -75,9 +75,11 @@
     @apply
         font-PoppinsExtraBold  
         text-texto
-        xl:w-36
-        md:w-36
-        xs:w-20
+        xl:w-56
+        lg:w-44
+        md:w-full
+        xs:w-full
+        sm:w-20
         xs:text-base
         block 
         p-4
@@ -114,8 +116,8 @@
     .texto-p{
         @apply
         font-PoppinsBoldItalic 
-        xl:text-8xl
-        lg:text-8xl
+        xl:text-6xl
+        lg:text-6xl
         md:text-6xl
         mt-3 
         xs:text-4xl
